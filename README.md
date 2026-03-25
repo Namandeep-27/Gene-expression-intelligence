@@ -1,4 +1,4 @@
-Gene Expression Intelligence Copilot  
+# 🧬 Gene Expression Intelligence Copilot  
 
 ### Turn raw gene expression datasets into structured biomarker insights — in minutes.
 
@@ -10,7 +10,7 @@ Built as an interactive web application using **Python + Streamlit**, the system
 
 ## 🚀 Platform Overview  
 
-![Overview](images/overview.png)
+![Overview](images/11.png)
 
 This screen provides the **first high-level understanding of the dataset**, including:
 
@@ -26,7 +26,7 @@ This helps researchers quickly determine whether the dataset contains meaningful
 
 ## 📊 Dataset Snapshot & Quality Summary  
 
-![Snapshot](images/snapshot.png)
+![Snapshot](images/2.png)
 
 The platform automatically identifies:
 
@@ -41,7 +41,7 @@ Warnings are generated when too many genes show significance, helping prevent **
 
 ## 🔬 Data Health Diagnostics  
 
-![Data Health](images/data_health.png)
+![Data Health](images/3.png)
 
 Before performing statistical testing, the system evaluates:
 
@@ -55,7 +55,7 @@ This ensures downstream modeling and biomarker discovery are **based on reliable
 
 ## 📈 Differential Expression Discovery  
 
-![Volcano Plot](images/volcano.png)
+![Volcano Plot](images/4.png)
 
 Each gene is tested using:
 
@@ -73,7 +73,7 @@ Interactive volcano plots allow researchers to quickly identify:
 
 ## 🧠 Biomarker Prioritization Engine  
 
-![Biomarkers](images/biomarkers.png)
+![Biomarkers](images/5.png)
 
 Instead of ranking genes using only p-values or fold change, the platform builds a **composite biomarker score** combining:
 
@@ -88,7 +88,7 @@ Adjustable weight sliders allow researchers to tailor ranking logic to their spe
 
 ## 🧬 Pathway-Level Interpretation  
 
-![Pathways](images/pathways.png)
+![Pathways](images/6.png)
 
 Significant genes are mapped to curated biological pathway databases:
 
@@ -105,7 +105,7 @@ This allows users to move beyond individual genes and understand:
 
 ## 🧩 Gene Co-expression Network  
 
-![Network](images/network.png)
+![Network](images/7.png)
 
 Correlation-based gene networks reveal:
 
@@ -217,37 +217,36 @@ src/
   ai_copilot.py
   report_generator.py
   ui_components.py
+```
 
-  Tech Stack
+---
 
-Core
-	•	Python
-	•	Streamlit
-	•	Pandas
-	•	NumPy
+## ⚙️ Tech Stack  
 
-Statistics
-	•	SciPy
-	•	Statsmodels
+**Core**
+- Python  
+- Streamlit  
+- Pandas  
+- NumPy  
 
-Machine Learning
-	•	Scikit-learn
-	•	SHAP
+**Statistics**
+- SciPy  
+- Statsmodels  
 
-Bioinformatics
-	•	Lifelines
-	•	NetworkX
-	•	Enrichr API
+**Machine Learning**
+- Scikit-learn  
+- SHAP  
 
-Visualization
-	•	Plotly
-	•	Matplotlib
-	•	Seaborn
+**Bioinformatics**
+- Lifelines  
+- NetworkX  
+- Enrichr API  
 
-AI
-	•	OpenAI GPT (optional)
+**Visualization**
+- Plotly  
+- Matplotlib  
+- Seaborn  
 
-
-
-
+**AI**
+- OpenAI GPT (optional)
 
