@@ -10,7 +10,7 @@ Built as an interactive web application using **Python + Streamlit**, the system
 
 ## 🚀 Platform Overview  
 
-![Overview](images/11.png)
+<img width="2920" height="1258" alt="image" src="https://github.com/user-attachments/assets/ab7b3ff2-0d61-4101-96cd-1931f7c42d1e" />
 
 This screen provides the **first high-level understanding of the dataset**, including:
 
@@ -26,7 +26,7 @@ This helps researchers quickly determine whether the dataset contains meaningful
 
 ## 📊 Dataset Snapshot & Quality Summary  
 
-![Snapshot](images/2.png)
+<img width="2940" height="1582" alt="image" src="https://github.com/user-attachments/assets/c9d409c7-e65c-41d9-acf4-033e421fd404" />
 
 The platform automatically identifies:
 
@@ -41,7 +41,7 @@ Warnings are generated when too many genes show significance, helping prevent **
 
 ## 🔬 Data Health Diagnostics  
 
-![Data Health](images/3.png)
+<img width="2458" height="1514" alt="image" src="https://github.com/user-attachments/assets/43f9b6df-a7b7-4a89-b24d-915291b15089" />
 
 Before performing statistical testing, the system evaluates:
 
@@ -55,7 +55,7 @@ This ensures downstream modeling and biomarker discovery are **based on reliable
 
 ## 📈 Differential Expression Discovery  
 
-![Volcano Plot](images/4.png)
+<img width="2438" height="1450" alt="image" src="https://github.com/user-attachments/assets/6023d22f-6684-4d40-9baa-c9b913c78c36" />
 
 Each gene is tested using:
 
@@ -73,7 +73,7 @@ Interactive volcano plots allow researchers to quickly identify:
 
 ## 🧠 Biomarker Prioritization Engine  
 
-![Biomarkers](images/5.png)
+<img width="2476" height="1396" alt="image" src="https://github.com/user-attachments/assets/774fe863-601b-402e-ae33-a03eaedca670" />
 
 Instead of ranking genes using only p-values or fold change, the platform builds a **composite biomarker score** combining:
 
@@ -88,7 +88,7 @@ Adjustable weight sliders allow researchers to tailor ranking logic to their spe
 
 ## 🧬 Pathway-Level Interpretation  
 
-![Pathways](images/6.png)
+<img width="2508" height="1352" alt="image" src="https://github.com/user-attachments/assets/a62b71ad-15f2-44a8-bf72-30f08486fb20" />
 
 Significant genes are mapped to curated biological pathway databases:
 
@@ -105,7 +105,7 @@ This allows users to move beyond individual genes and understand:
 
 ## 🧩 Gene Co-expression Network  
 
-![Network](images/7.png)
+<img width="2430" height="1506" alt="image" src="https://github.com/user-attachments/assets/86820cc5-f58d-4827-86bc-71a4075c9dfe" />
 
 Correlation-based gene networks reveal:
 
